@@ -1,15 +1,9 @@
-# DevPulse API
-
-This is my backend assignment project for an internal tech issue and feature tracker. The API lets team members report bugs, request features, and manage issue status based on their role.
-
+# Project Name: DevPulse
 Live URL:
 
 ```txt
-https://your-live-api-url.com
+https://assignment2-ba-7-level2.vercel.app
 ```
-
-Replace this with the deployed link before submitting.
-
 ## What I used from the course modules
 
 - Express server setup with `app.ts` and `server.ts`
@@ -48,24 +42,6 @@ Replace this with the deployed link before submitting.
 - bcrypt
 - jsonwebtoken
 
-## Folder Structure
-
-```txt
-src
-├── app.ts
-├── server.ts
-├── config
-│   ├── db.ts
-│   └── env.ts
-├── db
-│   └── schema.sql
-├── middleware
-├── modules
-│   ├── auth
-│   └── issues
-├── types
-└── utils
-```
 
 ## Environment Setup
 
@@ -83,24 +59,6 @@ CORS_ORIGIN=*
 
 Bcrypt salt round is kept between 8 and 12.
 
-## Install and Run
-
-```bash
-npm install
-npm run dev
-```
-
-For checking TypeScript build:
-
-```bash
-npm run build
-```
-
-For running compiled code:
-
-```bash
-npm start
-```
 
 ## Database Setup
 
@@ -110,7 +68,7 @@ Run the SQL from this file in PostgreSQL:
 src/db/schema.sql
 ```
 
-The project has two tables: `users` and `issues`. I did not use SQL JOIN because the assignment says not to use JOIN. Reporter information is fetched separately from the users table.
+The project has two tables: `users` and `issues`.
 
 ## API Endpoints
 
@@ -232,21 +190,13 @@ Error:
 - created_at
 - updated_at
 
-## Deployment Notes
-
-For Render/Railway:
-
-```txt
-Build Command: npm install && npm run build
-Start Command: npm start
-```
 
 For Vercel, the project also has `vercel.json`.
 
 ## Final Submission
 
 ```txt
-GitHub Repo: add your public repo link
+GitHub Repo: https://github.com/TAHMID-AL-ui/Assignment2_BA7_Level2.git
 Live Deployment: add your public live API link
 Interview Video: add your public video link
 ```
