@@ -4,20 +4,6 @@ Live URL:
 ```txt
 https://assignment2-ba-7-level2.vercel.app
 ```
-## What I used from the course modules
-
-- Express server setup with `app.ts` and `server.ts`
-- Environment variable configuration with `.env`
-- PostgreSQL connection using `pg` Pool
-- Raw SQL queries with `pool.query()`
-- Modular pattern for auth and issues
-- Middleware for authentication and error handling
-- JWT login system
-- bcrypt password hashing
-- Basic RBAC for contributor and maintainer
-- Common response utility for success and error responses
-- Deployment ready build command
-
 ## Features
 
 - User signup and login
@@ -62,7 +48,6 @@ Bcrypt salt round is kept between 8 and 12.
 
 ## Database Setup
 
-Run the SQL from this file in PostgreSQL:
 
 ```bash
 src/db/schema.sql
