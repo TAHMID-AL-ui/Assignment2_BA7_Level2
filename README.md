@@ -182,6 +182,6 @@ For Vercel, the project also has `vercel.json`.
 
 ```txt
 GitHub Repo: https://github.com/TAHMID-AL-ui/Assignment2_BA7_Level2.git
-Live Deployment: add your public live API link
-Interview Video: add your public video link
+Live Deployment: https://assignment2-ba-7-level2.vercel.app
+Interview Video: https://drive.google.com/file/d/1fNQ0UerZz5scgOa4HPawXiw_pLJFVTR7/view?usp=sharing
 ```
